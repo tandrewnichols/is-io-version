@@ -10,11 +10,17 @@ Check whether a given node version is io.js or node.js
 
 ## Summary
 
-## Usage
+Pass a version, get true or false back. Pretty simple really.
 
+```js
+var isIo = require('is-io-version');
 
-
-### Example
+isIo('0.10.0'); // false
+isIo('1.0.0'); // true
+isIo('2.0.0'); // true
+isIo('3.0.0'); // true
+isIo('4.0.0'); // false
+```
 
 ## Contributing
 
