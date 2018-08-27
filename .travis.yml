@@ -5,9 +5,9 @@ install:
 script:
   - "gulp travis"
 node_js:
-  - "0.12"
-  - "iojs-v1"
+  - "7"
   - "8"
+  - "9"
   - "10"
 cache:
   directories:
