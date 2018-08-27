@@ -6,12 +6,9 @@ script:
   - "gulp travis"
 node_js:
   - "0.10"
-  - "0.12"
-  - "4"
-  - "5"
   - "iojs-v1"
-  - "iojs-v2"
-  - "iojs-v3"
+  - "8"
+  - "10"
 cache:
   directories:
     - 'node_modules'
