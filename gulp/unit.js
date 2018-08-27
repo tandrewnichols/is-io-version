@@ -6,8 +6,7 @@ gulp.task('unit', function() {
   return gulp.src(config.tests, { read: false })
     .pipe(mocha({
       reporter: 'dot',
-      ui: 'mocha-given',
-      require: ['coffee-script/register', 'should']
+      require: ['should']
     }));
 });
 
