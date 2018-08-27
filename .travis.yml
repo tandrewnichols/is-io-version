@@ -5,7 +5,7 @@ install:
 script:
   - "gulp travis"
 node_js:
-  - "0.10"
+  - "0.12"
   - "iojs-v1"
   - "8"
   - "10"
