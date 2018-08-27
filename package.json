@@ -1,7 +1,7 @@
 {
   "name": "is-io-version",
   "description": "Check whether a given node version is io.js or node.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/is-io-version.js",
   "scripts": {
     "test": "gulp"
